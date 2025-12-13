@@ -66,7 +66,7 @@ current_state = MENU
 selected_operation = None  # Start with no operation selected
 score = 0
 question_index = 0
-total_questions = 5
+total_questions = 20
 current_question = None
 selected_answer = None
 show_feedback = False
@@ -506,3 +506,4 @@ while running:
 
 pygame.quit()
 sys.exit()
+
