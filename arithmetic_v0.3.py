@@ -473,7 +473,7 @@ while running:
                 show_menu_confirm = True
 
         # Handle feedback timing
-        if show_feedback and pygame.time.get_ticks() - feedback_timer > 2000:
+        if show_feedback and pygame.time.get_ticks() - feedback_timer > 500:
             show_feedback = False
             question_index += 1
             if question_index >= total_questions:
@@ -506,4 +506,5 @@ while running:
 
 pygame.quit()
 sys.exit()
+
 
